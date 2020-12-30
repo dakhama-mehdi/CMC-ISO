@@ -5,7 +5,7 @@
 	 Created by:   	Dakhama Mehdi, www.dakhama-mehdi.com, rti-pc@outlook.fr
 	 Organization: 	Alphorm.com
 	 Filename:      Win10-Medi-Tool.ps1
-     Tool Name :    JMC-ISO 
+     Tool Name :    JCM-ISO 
 	===========================================================================
 	.DESCRIPTION
         Creates media Windows 10 Boot/repair/upgrade, automatically support legacy and Uefi boot, with Secure Boot, and without window warning
@@ -101,7 +101,8 @@ $mbrtype = (Get-Disk $disk)
 #format without assign letter or create partition
 if ((Get-Disk $disk).partitionstyle -eq 'MBR')
 				{
-					Clear-Disk -Number $disk -RemoveData -RemoveOEM -Confirm:$false -PassThru | Initialize-Disk -PartitionStyle MBR
+					Clear-Disk -Number $disk -RemoveData -RemoveOEM -Confirm:$false -PassThru 
+					sleep -seconds 2
 
 				}
 else
