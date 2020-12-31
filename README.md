@@ -1,8 +1,9 @@
 # CMC-ISO
 Tool to Create Media Windows 10 Boot 
-Créer Ma Clé - ISO (free tool to create Media Windows 10 Boot and repair)
+Créer Ma Clé - ISO (free tool to create Windows 10 universal Media for Boot/repair/upgrade - you can also download all Win10 original ISO)
 Exist on GUI version or Script PS1
 
+![CMC](https://user-images.githubusercontent.com/49924401/103418596-aaa0bf00-4b8f-11eb-9ba6-2c27978f5dc9.gif)
 
 This free tool offres two fonctionality. 
 
@@ -12,12 +13,16 @@ This free tool offres two fonctionality.
 
 # Why to use : 
 
-* JMC-ISO, is one of few tool that keep you to burn your iso on USB and also external hard drive
-* you d'ont need to disable SecureBoot all signed driver by Microsoft was integrated
-* you can create a MBR/UEFI media from same tool
-* all media created and code is signed Mifcrosoft
-* compatible all version Windwos ISO (WIM or ESD)
+* CMC-ISO, is one of few tool that keep you to burn your iso on USB and also external hard drive
+* Support Secure Boot
+* Create Universal Media compatible with UEFI and Legacy Bios Mode
+* compatible all version Windwos 10 ISO (WIM or ESD) (RTM and Retail)
 * dont need install, very fast, and tool is signed and verified 
+
+#prerequiste
+* tool work only on Windows 8.1 or Win 10
+* you must have Powershell version 4.0 min
+* have media USB or External hard drive have more 8 GO
 
  How to use :
 * for create a usb media boot, select Image ISO, select your Drive, Select mode Boot (Universsel support UEFI + LEgacy) or (MBR for old Bios)
