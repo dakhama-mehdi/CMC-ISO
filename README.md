@@ -1,6 +1,6 @@
-# JCM-ISO
+# CMC-ISO
 Tool to Create Media Windows 10 Boot 
-Je crée Ma Clé - ISO (free tool to create Media Windows 10 Boot and repair)
+Créer Ma Clé - ISO (free tool to create Media Windows 10 Boot and repair)
 Exist on GUI version or Script PS1
 
 
