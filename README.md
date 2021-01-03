@@ -8,8 +8,8 @@
 
 This free tool offres two fonctionality. 
 
-1-Burn your ISO on you USB Drive or External Hard Drive - and boot on UEFI OR Legacy mode support SecureBoot
-2-Download Windows 10 ISO all Version
+* 1-Burn your ISO on you USB Drive or External Hard Drive - and boot on UEFI OR Legacy mode support SecureBoot
+* 2-Download Windows 10 ISO all Version
 
 
 # Why to use : 
