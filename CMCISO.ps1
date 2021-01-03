@@ -5,6 +5,7 @@
 	 Created by:   	Dakhama Mehdi, www.dakhama-mehdi.com, rti-pc@outlook.fr
 	 Organization: 	Alphorm.com
 	 Filename:      Win10-Medi-Tool.ps1
+	 Special Thanks for help to : Zekri Abdelhafid, Geroges News, Olivier Rabache, El hassan El Amri
      Tool Name :    CMC-iso 
 	===========================================================================
 	.DESCRIPTION
