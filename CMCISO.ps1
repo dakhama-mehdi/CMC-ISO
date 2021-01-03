@@ -272,3 +272,5 @@ Dismount-DiskImage -ImagePath $ImagePath
 
 Write-Host "Your Key is succeful created, Thank you"
 pause
+
+exit
