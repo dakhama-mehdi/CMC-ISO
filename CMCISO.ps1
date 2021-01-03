@@ -91,6 +91,8 @@ else
 	exit
 }
 
+
+
 if ($mode -ne '2') {
 
 # to close automaticaly the window when assign letter to drive
@@ -98,6 +100,10 @@ $shell = New-Object -ComObject Shell.Application
 
 #check disk partition befor format and creat partition, wi will have a MBR partition type to format FAT32 without error
 $mbrtype = (Get-Disk $disk)
+
+#you can disable the autoplay for moment if you have a prompt message format drive
+#	$path = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer'
+#	Set-ItemProperty $path -Name NoDriveTypeAutorun -Type DWord -Value 0xFF
 
 #format without assign letter or create partition
 if ((Get-Disk $disk).partitionstyle -eq 'MBR')
@@ -167,6 +173,9 @@ foreach ($window in ($shell.Windows() | Where-Object { $_.LocationURL -like "$((
 					$window.Quit()
 					
 				}
+				
+#Enable Autoplay drive 
+#Set-ItemProperty $path -Name NoDriveTypeAutorun -Type DWord -Value ''
 
 #Copy file to partition
 
