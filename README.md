@@ -1,6 +1,7 @@
-# CMC-ISO
+# CMC-ISO Version 3.0
 Tool to Create Media Windows 10 Boot 
 Créer Ma Clé - ISO (free tool to create Windows 10 universal Media for Boot/repair/upgrade - you can also download all Win10 original ISO)
+This version not creat yet the ISO generat from MDT or SCCM
 Exist on GUI version or Script PS1
 
 ![CMC](https://user-images.githubusercontent.com/49924401/103418596-aaa0bf00-4b8f-11eb-9ba6-2c27978f5dc9.gif)
