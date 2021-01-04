@@ -25,7 +25,7 @@ you can also create a Legacy only mode for old Bios, taht not support this metho
 pause 
 
 Write-Host "pls enter path of your Windows 10 ISO"
-Write-Host "exemple : "c:\users\mehdi\desktop\my folder\wind10.iso" ensure that your path is beetwen ''" -BackgroundColor Yellow
+Write-Host "exemple : "c:\users\mehdi\desktop\myfolder\wind10.iso" ensure that your path is beetwen ''" -BackgroundColor Yellow
 $ImagePath = Read-Host
 
 #mount ISO 
@@ -54,6 +54,14 @@ If (-not (Get-DiskImage -ImagePath $ImagePath | Get-Volume))
 				}
 				
 				$ISODrive = ((Get-DiskImage -ImagePath $ImagePath | Get-Volume).DriveLetter) + ":\"
+
+write-host "would you want to check the Hash of ISO" 
+$hash = read-host "Enter Y, if you want to check the Hash of ISO" 
+
+if ($hash -eq 'Y')
+{
+Get-FileHash $isodrive 
+}
 
 
 Write-Host "listing the USB drives.... `r`n" 
