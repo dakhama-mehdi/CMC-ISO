@@ -1,11 +1,11 @@
 ﻿<#	
 	.NOTES
 	===========================================================================
-	 Updated:   	Decembre 29, 2020
+	 Updated:   	Janvier 12, 2021
 	 Created by:   	Dakhama Mehdi, www.dakhama-mehdi.com, rti-pc@outlook.fr
 	 Organization: 	Alphorm.com
 	 Filename:      Win10-Medi-Tool.ps1
-	 Special Thanks for help to : Zekri Abdelhafid, Geroges News, Olivier Rabache, El hassan El Amri
+	 Special Thanks for help to : Zekri Abdelhafid, Geroges News, Olivier Rabache
      Tool Name :    CMC-iso 
 	===========================================================================
 	.DESCRIPTION
