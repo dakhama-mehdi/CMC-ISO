@@ -1,4 +1,4 @@
-# CMC-ISO Version : 2.0.5
+# CMC-ISO Version Beta : 2.0.7
 * Free and OpenSource Tool
 * Tool to Create Media Windows 10 Boot 
 * Créer Ma Clé - ISO (free tool to create Windows 10 universal Media for Boot/repair/upgrade - you can also download all Win10 original ISO)
@@ -10,6 +10,8 @@ This free tool offres two fonctionality.
 
 * Burn your ISO on you USB Drive or External Hard Drive - and boot on UEFI OR Legacy mode support SecureBoot
 * Download Windows 10 ISO all Version
+* Support Amoei, Hirensboot, Malekal
+* check Windows ISO SHA1 and validity
 
 
 # Why to use : 
