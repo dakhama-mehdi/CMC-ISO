@@ -14,7 +14,7 @@
 * Support another distribution Winpe (Amoei, Acronis, DaRT, Hirensboot, malekal, all liveCD will be worked on dual boot BIOS/UEFI and SecureBoot)
 
 
-![CMC-ISO](https://user-images.githubusercontent.com/49924401/104088399-eeb65280-5266-11eb-96fd-e7f1216c3146.gif)
+![cmc-iso-2 0 7](https://user-images.githubusercontent.com/49924401/131232996-85fa66a7-63ed-4c25-a370-d09e8a631725.gif)
 
 This free tool offres two fonctionality. 
 
