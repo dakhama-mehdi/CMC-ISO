@@ -1,3 +1,5 @@
+![cmc-iso-2 0 7](https://user-images.githubusercontent.com/49924401/131232996-85fa66a7-63ed-4c25-a370-d09e8a631725.gif)
+
 # CMC-ISO Version  : 2.0.9
 * Free Tool
 * Tool to Create Media Windows 10, Windows server Boot 
@@ -8,13 +10,11 @@
 
 # What's News :
 * Add automatically language chose
+* Scan copied files in real time
 * New language Spanish and Italian
 * calcul SHA256 and check authenticity windows ISO from database (no support evaluation iso)
 * Scan files with AV during copy (detect vulnerability file when created a media drive)
 * Support another distribution Winpe (Amoei, Acronis, DaRT, Hirensboot, malekal, all liveCD will be worked on dual boot BIOS/UEFI and SecureBoot)
-
-
-![cmc-iso-2 0 7](https://user-images.githubusercontent.com/49924401/131232996-85fa66a7-63ed-4c25-a370-d09e8a631725.gif)
 
 This free tool offres two fonctionality. 
 
