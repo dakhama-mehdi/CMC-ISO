@@ -50,7 +50,7 @@ This free tool offres two fonctionality.
 * You can't use your propr ISO editing or genered by MDT or ICD 
 * not support ISO captured by dism
 * On the upside, the install.wim is compressed to under 4GB so it can fit on FAT32 partitions and thus allow you to have only 1 partition on the key 
-* Hash 2.0.7.exe is : SHA-256 = 672FCE6618427EBECF823F7B8BF1ADFF11B42D0CFC323E27F86F36BCCDA55B15
+* Hash 2.0.9.exe is : SHA-256 = 672FCE6618427EBECF823F7B8BF1ADFF11B42D0CFC323E27F86F36BCCDA55B15
 
 
 Enjoy
