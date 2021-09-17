@@ -10,7 +10,7 @@
 
 # What's News :
 * Add automatically language chose
-* Scan copied files in real time
+* Scan files copy in real time
 * New language Spanish and Italian
 * calcul SHA256 and check authenticity windows ISO from database (no support evaluation iso)
 * Scan files with AV during copy (detect vulnerability file when created a media drive)
